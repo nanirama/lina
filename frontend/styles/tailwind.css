@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Lana";
+    src: url("/fonts/lana/lana-normal.woff2");
+    font-style: norma;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "f37ginger";
+    src: url("/fonts/f37ginger/f37ginger-300-webfont.woff2");
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "f37ginger";
+    src: url("/fonts/f37ginger/f37ginger-400-webfont.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "f37ginger";
+    src: url("/fonts/f37ginger/f37ginger-700-webfont.woff2");
+    font-style: bold;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "GT-Super-Text";
+    src: url("/fonts/gtsuper/GT-Super-Text-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "GT-Super-Text";
+    src: url("/fonts/gtsuper/GT-Super-Text-Book.woff2");
+    font-style: normal;
+    font-weight: 350;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "GT-Super-Text";
+    src: url("/fonts/gtsuper/GT-Super-Text-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "GT-Super-Text";
+    src: url("/fonts/gtsuper/GT-Super-Text-Regular.woff2");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "GT-Super-Text";
+    src: url("/fonts/gtsuper/GT-Super-Text-Medium.woff2");
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "GT-Super-Text";
+    src: url("/fonts/gtsuper/GT-Super-Text-Bold.woff2");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+
+
+
+
+
+body {
+    @apply text-darkGray;
+    font-family: f37ginger, sans-serif;
+    line-height: 1;
+    font-weight: 300;
+    line-height: 1.625rem;
+}
+
+h1, h2, h3 {
+    font-family: "GT-Super-Text";
+    font-weight: 350;
+    line-height: 2.5rem;
+}
+
+.primary-button-blue {
+    @apply bg-blue-600 text-white hover:bg-blue-700 active:bg-blue-700 font-semibold px-2 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none;
+}
+
+.primary-button-disabled {
+   @apply text-white font-semibold  px-2 py-2 rounded shadow outline-none focus:outline-none bg-gray-300;
+}
+  
+.secondary-button-blue {
+    @apply text-blue-600 bg-transparent border border-solid border-blue-600 hover:bg-blue-600 hover:text-white active:bg-blue-600 font-semibold px-2 py-2 rounded outline-none focus:outline-none; 
+}
+
+.text-input {
+    @apply rounded-lg border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wave {
+    animation-name: wave-animation; 
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) } 
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) } 
+    100% { transform: rotate( 0.0deg) }
+  }
+  
+.heroimage {
+    right: 4px;
+    width: 340px;
+}
+
+@media (max-width: 768px) {
+   .heroimage {
+      right: 20px;
+      width: 340px;
+   } 
+}

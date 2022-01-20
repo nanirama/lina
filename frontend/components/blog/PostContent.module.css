@@ -1,0 +1,9 @@
+.post img {
+  display: inline;
+}
+
+.post p {
+  display: block;
+  line-height: 1.5;
+  min-height: 1rem;
+}

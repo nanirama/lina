@@ -1,0 +1,14 @@
+<svg width="147" height="118" viewBox="0 0 147 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="1.5" y1="-1.5" x2="89.8805" y2="-1.5" transform="matrix(-1 0 0 1 91.7402 30.3654)" stroke="#374146" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1.5" y1="-1.5" x2="60.5082" y2="-1.5" transform="matrix(-1 0 0 1 91.7402 58.8326)" stroke="#374146" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1.5" y1="-1.5" x2="89.8805" y2="-1.5" transform="matrix(-1 0 0 1 91.7402 87.2999)" stroke="#374146" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="107.984" y="0.311401" width="54.8592" height="110.664" rx="27.4296" transform="rotate(45 107.984 0.311401)" fill="#FF877A"/>
+<rect x="69.7231" y="38.5724" width="54.8592" height="2.44532" transform="rotate(45 69.7231 38.5724)" fill="#FFECE8"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="93" y="63" width="49" height="49">
+<circle cx="117.492" cy="87.2876" r="24.1563" fill="#4DBCC4"/>
+</mask>
+<g mask="url(#mask0)">
+<circle cx="117.492" cy="87.2876" r="24.1563" fill="#374146"/>
+<rect x="90.0625" y="86.0649" width="54.8592" height="2.44532" fill="#FFECE8"/>
+</g>
+</svg>

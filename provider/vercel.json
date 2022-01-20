@@ -1,0 +1,5 @@
+{
+    "rewrites": [
+      { "source": "/api_proxy/(.*)", "destination": "http://staging-api.healthgent.net/$1" }
+    ]
+  }

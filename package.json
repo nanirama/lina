@@ -1,0 +1,36 @@
+{
+  "name": "healthgent",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "server",
+    "frontend",
+    "provider",
+    "common"
+  ],
+  "scripts": {
+    "dev:frontend": "cd frontend && yarn dev -p 3000",
+    "dev:provider": "cd provider && yarn dev -p 3001",
+    "dev:server": "cd server && yarn start:development",
+    "dev:all": "yarn dev:server & yarn dev:frontend & yarn dev:provider",
+    "frontend": "yarn workspace @healthgent/frontend",
+    "provider": "yarn workspace @healthgent/provider",
+    "server": "yarn workspace @healthgent/server"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.20",
+    "@types/react": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
